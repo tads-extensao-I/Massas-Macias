@@ -1,6 +1,6 @@
 # Massas-Macias
 
-Link para acesso na página: https://tads-extensao-i.github.io/Massas-Macias/
+Link para acesso à página: https://tads-extensao-i.github.io/Massas-Macias/
 
 
 
