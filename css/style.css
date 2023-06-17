@@ -226,3 +226,8 @@ transform: translateY(-10px);
 .foto .img2{
     transform: rotate(15deg);
 }
+.receitas{
+    background-image: url('../img/producao/massasmacias3.jpg');
+    background-size: cover; /* ajustar as propoção da imagem */
+    background-repeat: no-repeat; /* Para não repitir */
+}
