@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
-/*Professor tive um problema com as fontes, por isso eu optei em fazer a importação com o google
-fontes*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
-    /*Regre geral*/
+    /*Regra geral*/
 }
 
 section{
@@ -32,13 +31,6 @@ section{
     width: 100%;
     height: 100%;
     background-color: #ff4920e7; 
-
-    /*Professor eu fiz o importe da cor... porém ele nao da a opção de reduzir a minha 
-    opacidade da cor.... Provavelmente eu não sei fazer isso ( ja pesquisei e encotrei poucas coisas que nao dava certo)... vou deixar para segunda fere
-    para pergutar para o senhor */
-
-    /* sendo assim eu vou optar em deixar para colocar a cores dos outros circulos com o vscode, espero que o senhor entenda*/
-
     clip-path: circle(35% at bottom right); /* tamanho e raio do meu circulo e seu posicionamento */
 
 }
