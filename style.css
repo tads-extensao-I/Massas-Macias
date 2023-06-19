@@ -140,11 +140,11 @@ html{
     background: var(--btn-color);
     border: 1px solid white;
 }
-.sobre-nos{
+.detalhes{
     padding: 2rem 7%;
     background: var(--about-sec);
 }
-.sobre-nos-principal{
+.detalhes-principal{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,29 +152,29 @@ html{
     gap: 20px;
     
 }
-.sobre-nos-container{
+.detalhes-container{
     flex: 1 1 45rem;
 }
-.sobre-nos-conteudo{
+.detalhes-conteudo{
     width: 100%;
     margin: 0 auto;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-.sobre-nos-container .sobre-nos-conteudo img{
+.detalhes-container .detalhes-conteudo img{
     width: 80%;
     margin-left: 100px;
     border-radius: 20px;
 }
-.sobre-nos-texto{
+.detalhes-texto{
     padding: 0 4rem;
 }
-.sobre-nos-texto h1{
+.detalhes-texto h1{
     color: #e58f00;
     font-size: 40px;
     margin-bottom: 15px;
 }
-.sobre-nos-texto p{
+.detalhes-texto p{
     color: white;
     font-size: 1.5rem;
     line-height: 35px;
@@ -284,77 +284,7 @@ html{
     font-size: 1.5rem;
     line-height: 35px;
 }
-.food-main-content{
-    width: 40%;
-    border: 4px solid #ffffff;
-    padding: 2rem;
-}
-.food-main-content h1{
-    color: #ffffff;
-    font-size: 35px;
-    text-align: center;
-    padding: 1rem 0;
-}
-.food-main-content p{
-    color: #ffffff;
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 1rem 0;
-    line-height: 30px;
-}
-.our-menu-food{
-    padding: 2rem 7%;
-    background-color: var(--about-sec);
-}
-.our-menu-food h1{
-    color: var(--btn-color);
-    font-size: 45px;
-    text-align: center;
-    padding: 0.5rem 0;
-}
-.main-menu-food{
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-.inner-menu-food{
-    flex: 1 1 300px;
-}
-.menu-food-content{
-    width:100%;
 
-}
-.menu-food-content img{
-    width: 100%;
-}
-
-.menu-food-text{
-    padding: 2rem 2rem;
-}
-.menu-food-text h2{
-    color: var(--btn-color);
-    font-size: 30px;
-}
-.menu-food-text p{
-    color:white;
-    font-size:18px;
-    margin: 2rem 0;
-}
-.menu-food-text p span{
-    color: #e58f00;
-    padding: 0.5rem 1.5rem;
-    transition: 0.3s;
-    cursor: pointer;
-}
-.menu-food-text p:hover span{
-    border: 1px solid white;
-    background: var(--btn-color);
-    color: white;
-    transform: scale(1.1);
-}
 .before{
     background-color: #1d1d23;
     padding: 2rem 0;
@@ -462,7 +392,7 @@ html{
     .conteudo-principal{
         margin-top: 300px;
     }
-    .sobre-nos-container .sobre-nos-conteudo img{
+    .detalhes-container .detalhes-conteudo img{
         width: 100%;
         margin: 0;
         padding: 1rem;
@@ -473,24 +403,6 @@ html{
     .qualidade-conteudo h1{
         color: var(--about-sec)
     }
-    .food-main-content{
-        width: 100%;
-        border: 4px solid white;
-        padding: 1rem;
-    }
-
-    .footer-navbar a{
-        display: block;
-       
-    }
+    
 
 }
-
-
-
-
-
-
-
-
-
