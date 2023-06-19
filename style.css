@@ -249,7 +249,7 @@ html{
     padding: 2rem 7%;
     background: url(imagens/Sobre.jpg);
 }
-.main-sobre{
+.sobre-principal{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -257,29 +257,29 @@ html{
     gap: 20px;
     
 }
-.sobre-content{
+.sobre-container{
     flex: 1 1 45rem;
 }
-.sobre-inner-content{
+.sobre-conteudo{
     width: 100%;
     margin: 0 auto;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-.sobre-content .sobre-inner-content img{
+.sobre-container .sobre-conteudo img{
     width: 80%;
     margin-left: 100px;
     border-radius: 20px;
 }
-.sobre-text-content{
+.sobre-texto{
     padding: 0 4rem;
 }
-.sobre-text-content h1{
+.sobre-texto h1{
     color: #e58f00;
     font-size: 40px;
     margin-bottom: 15px;
 }
-.sobre-text-content p{
+.sobre-texto p{
     color: white;
     font-size: 1.5rem;
     line-height: 35px;
